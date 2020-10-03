@@ -1,0 +1,31 @@
+body{
+background-image: url(3.jpg) ; 
+}
+
+
+
+.sec{
+    background-color: rgba(0, 0, 0, 0.726);
+    min-width: 70px;
+    min-height: 250px;
+    margin: 50px;
+    margin-top: 55vh;
+    font-size: 2em;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    z-index: 10;
+}
+.sec p{
+    
+    color: white;
+    margin: 15px;
+    margin-bottom: 50px;
+}
+.sec a{
+    text-decoration: none;
+    color: white;
+   border: 3px solid white;
+   border-radius: 10px;
+    padding: 10px;
+}
