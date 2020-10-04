@@ -30,7 +30,7 @@ function play() {
 
 function countdownTimeStart(){
 
-var countDownDate = new Date().getTime()+ 100*(100);
+var countDownDate = new Date().getTime()+ 100*(30000);
 
 x = setInterval(function() {
     

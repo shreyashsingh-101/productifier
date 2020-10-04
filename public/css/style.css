@@ -127,3 +127,20 @@ border: 3px solid rgb(0, 0, 0);
 background: none;
 transition: all 0.3s ease 0s;
 }
+
+.interior {
+    font-size: 12px;
+}
+
+.completedTasks {
+    color: rgb(5, 206, 15);
+}
+
+#addTask {
+    margin-bottom: 5px;
+}
+
+.pending {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
