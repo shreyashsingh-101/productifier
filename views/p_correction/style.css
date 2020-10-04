@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+}
+#image{
+    flex: .5;
+    width: 50%;
+    margin: 20px;
+
+}
+
+/* BUTTON */
+#startstop {
+    --c: goldenrod;
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+    background-color: black;
+}
+
+#startstop span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+#startstop:hover {
+    color: white;
+}
+
+#startstop:hover span {
+    transform: translateY(0) scale(2);
+}
+
+#startstop span:nth-child(1) {
+    --n: 1;
+}
+
+#startstop span:nth-child(2) {
+    --n: 2;
+}
+
+#startstop span:nth-child(3) {
+    --n: 3;
+}
+
+#startstop span:nth-child(4) {
+    --n: 4;
+}
